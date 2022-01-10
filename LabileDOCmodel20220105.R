@@ -95,7 +95,7 @@ colnames(out) <- names
 
 #model code
 # '_r' suffix on parameters indicates they are derived from the random draw
-n_runs <- 1000 #number of model runs, for code testing set to 1,000 
+n_runs <- 100000 #number of model runs, for code testing set to 1,000 
 x <- c()
 for(i in 1:n_runs){ 
   #Primary parameters
